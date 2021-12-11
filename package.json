@@ -2,6 +2,7 @@
   "name": "hassankotti",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hassankotti.github.io/",
   "dependencies": {
     "@headlessui/react": "^1.4.0",
     "@heroicons/react": "^1.0.3",
@@ -21,9 +22,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build build:css",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build  build:css",
+    "deploy": "gh-pages -d build ",
+    "build:css": "tailwind build src/index.css -o /css/App.css"
   },
   "eslintConfig": {
     "extends": [
