@@ -4,9 +4,9 @@ const Services = () => {
   return (
     <section
       className='relative max-w-8xl  text-left  snap-start snap-always'
-      id='experience'>
+      id='services'>
       <div className='min-h-screen bg-white  py-6 flex flex-col justify-center relative overflow-hidden sm:py-12'>
-        <h3 className=' px-8 mx-auto sm:px-12 lg:px-20 z-10 text-3xl font-extrabold leading-8  uppercase text-stone-900  sm:text-5xl lg:text-6xl tracking-tight text-center'>
+        <h3 className='py-6 px-8 mx-auto sm:px-12 lg:px-20 z-10 text-3xl font-extrabold leading-8  uppercase text-stone-900  sm:text-5xl lg:text-6xl tracking-tight text-center'>
           What I do ?
         </h3>
         <div className='flex items-center justify-start bg-stone-0  px-8 mx-auto sm:px-12 lg:px-20'>

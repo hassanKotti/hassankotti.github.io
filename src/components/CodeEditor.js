@@ -2,7 +2,7 @@ import React from 'react'
 
 const CodeEditor = () => {
     return (
-      <div className='self-center code-editor col-start-1 text-white row-start-1 row-end-2 pt-8 ml-10 md:px-8 lg:px-0 col-span-full lg:col-start-1 xl:col-start-3 xl:col-end-4 xl:row-start-2 xl:row-end-5 lg:pt-0'>
+      <div className='self-center mx-auto code-editor  text-white  pt-8 md:ml-10 md:px-8 lg:px-0  lg:pt-0'>
         <div
           className='z-10 divide-stone-600 shadow-xl'
           style={{
@@ -25,7 +25,7 @@ const CodeEditor = () => {
             </div>
           </div>
           <div style={{ padding: "16px" }}>
-            <div className='relative shiki'>
+            <div className='relative'>
               <span className='font-mono'>
                 <span className='relative block w-full line bg-opacity-60 hover:bg-stone-600'>
                   <span className='select-none number'>1</span>

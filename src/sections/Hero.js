@@ -8,9 +8,7 @@ const Hero = () => {
       <div className='flex flex-col  items-center justify-center  lg:flex-row-reverse  lg:justify-around lg:items-center '>
         <div className='relative z-10 max-w-screen-lg mx-auto xl:max-w-screen-xl'>
           <div className='grid mx-auto gap-x-4 max-w-7xl hero_image'>
-            <div className='flex col-start-1 col-end-2 row-start-1 pr-4 -ml-8 sm:col-start-2 sm:col-end-3 lg:col-start-1 lg:col-span-full row-span-full xl:col-start-1 xl:col-end-5 xl:row-start-2 xl:row-end-5 lg:py-10 xl:py-16 sm:ml-0 sm:pr-0'>
-              <div className='flex-none w-full '></div>
-            </div>
+ 
             <div className='relative  self-center col-start-1 col-end-2 row-start-2 row-end-3 pb-6 pr-8 ml-10 -mt-6 sm:col-start-2 sm:col-end-3 lg:col-start-1 lg:col-span-full xl:col-start-2 xl:col-end-3 xl:row-start-3 xl:row-end-4 sm:px-6 md:px-8 md:pb-8 lg:px-0 lg:pb-0 sm:-mt-10 md:-mt-16 lg:-mt-32 xl:mt-0'>
               <div className='flex items-center justify-center max-w-xl xl:max-w-none'>
                 <div className='flex-none w-full'>
