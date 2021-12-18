@@ -1,10 +1,9 @@
 import React from "react";
-import beams from "../assets/beams4.jpg";
 
 const Contact = () => {
   return (
     <section
-      class='bg-white py-6 relative overflow-hidden snap-start snap-always'
+      class='py-6 relative overflow-hidden snap-start snap-always'
       id='contact'>
       <div class='max-w-8xl pt-10 pb-8 px-12 sm:px-16 sm:max-w-8xl sm:mx-auto mb-2'>
         <figure class='font-display'>

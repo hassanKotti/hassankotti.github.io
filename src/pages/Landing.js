@@ -7,11 +7,12 @@ import Footer from "../layout/Footer";
 import Header from "../layout/Header";
 import Projects from "../sections/Projects";
 import Education from "../sections/Education";
-import Section from "../components/Section";
+import Banner from "../sections/Banner";
 const Landing = () => {
   return (
-    <div className='w-full bg-stone-50 snap-y snap-mandatory'>
-      <Header />     
+    <div className='bg-white max-w-8xl overflow-hidden font-sans'>
+      <Header />
+      <Banner />
       <Education />
       <Experience />
       <Services />

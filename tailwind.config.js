@@ -1,10 +1,11 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
-  darkMode: "class",
   theme: {
     extend: {
-      backgroundImage: {
-        beam: "url('./assets/beams.jpg')",
+      fontFamily: {
+        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
       },
     },
   },
