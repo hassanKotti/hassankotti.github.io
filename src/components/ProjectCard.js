@@ -16,8 +16,8 @@ const ProjectCard = ({ name, image, desc, tags, url }) => {
       leave='transform duration-200 transition ease-in-out'
       leaveFrom='opacity-100 rotate-0 scale-100 '
       leaveTo='opacity-0 scale-95 '>
-      <div class='relative bg-white shadow-xl flex-none  sm:max-w-lg sm:mx-auto sm:rounded-lg z-10 overflow-hidden mx-10'>
-        <div class='max-w-md  mx-auto'>
+      <div class='relative bg-white shadow-xl ring-1 ring-tone-500/30 flex-none snap-center sm:max-w-lg sm:mx-auto sm:rounded-lg z-10 overflow-hidden m-10'>
+        <div class='max-w-md mx-auto'>
           <img
             src='https://raw.githubusercontent.com/hassanKotti/tailreact/master/public/Tailwind-React.png'
             class='aspect-video object-cover object-top'

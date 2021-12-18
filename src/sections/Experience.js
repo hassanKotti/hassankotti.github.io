@@ -12,13 +12,14 @@ import {
 const Experience = () => {
   return (
     <section
-      className='relative max-w-8xl mb-6 text-left px-8 mx-auto sm:px-12 lg:px-20 z-10 experience'
+      className='relative max-w-8xl mb-6 text-left px-8 mx-auto sm:px-12 lg:px-20 z-10 '
       id='experience'>
-      <div className='z-100'>
-        <h3 class='py-6 px-8 mx-auto sm:px-12 lg:px-20 text-xl font-extrabold leading-8  uppercase text-stone-500  sm:text-2xl lg:text-3xl tracking-tight text-center z-100'>
+      <div class="after:content-['']  after:bg-no-repeat after:-translate-y-50 after:-translate-x-[30%] after:top-0 after:left-[50%] after:w-[300%] after:absolute  after:h-[100%]  after:bg-[url('./assets/svg/section-experience.svg')] after:max-w-[200%] after:bg-auto after:bg-center bg-top"></div>
+      <div className='z-50'>
+        <h3 class='py-6 px-8 mx-auto sm:px-12 lg:px-20 text-xl font-extrabold leading-8  uppercase text-stone-500  sm:text-2xl lg:text-3xl tracking-tight text-center z-50'>
           Experience
         </h3>
-        <div class='items-center justify-between lg:flex z-100'>
+        <div class='items-center justify-between lg:flex z-50'>
           <div class='flex-1 text-left py-4 space-y-2 '>
             <div class='flex-1 text-left py-4 space-y-2 '>
               <div className='flex items-center'>
